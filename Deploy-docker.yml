@@ -1,8 +1,8 @@
 ---
-- name: Pull docker image of Lab3Junit
+- name: Pull docker image of Calculator
   hosts: all
   tasks:
-    - name: Pull junit devops image
+    - name: Pull Calculator image
       docker_image:
         name: ebad95/devops
         source: pull
