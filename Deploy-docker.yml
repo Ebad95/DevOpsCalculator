@@ -6,4 +6,4 @@
     - name: Pull Calculator image
       docker_image:
         name: ebad95/devops
-        source: pull
+        pull: true
