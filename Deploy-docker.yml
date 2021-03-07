@@ -1,7 +1,6 @@
 ---
 - name: Pull docker image of Calculator
   hosts: remoteserver
-  remote_user: root
   tasks:
     - name: Pull Calculator image
       docker_image:
