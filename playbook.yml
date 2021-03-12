@@ -9,6 +9,6 @@
         state: present
     - name: Copy jar file to home directory
       copy:
-        src: ./target/DevOpsCalculator-1.0-SNAPSHOT.jar
+        src: ./target/DevOpsCalculator-1.0-SNAPSHOT-jar-with-dependencies.jar
         dest: ~/
         mode: '0755'
