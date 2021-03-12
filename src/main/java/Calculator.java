@@ -10,7 +10,7 @@ public class Calculator {
     public double sqrt(double a)
     {
         double result=0;
-        logger.info("[SQUARE ROOT] - " + a);
+        logger.info("SQUARE ROOT - " + a);
         try {
             if (a < 0) {
                 result = Double.NaN;
@@ -20,26 +20,26 @@ public class Calculator {
             }
         }
             catch (ArithmeticException error) {
-            System.out.println("Negative number");
+            logger.info("Negative number square root");
             }
-        logger.info("[RESULT - SQUARE ROOT] - " + result);
+        logger.info("RESULT - SQUARE ROOT - " + result);
         return result;
     }
     public long factorial(int a)
     {
         long f=1;
-        logger.info("[FACTORIAL] - " + a);
+        logger.info("FACTORIAL - " + a);
         for(int i=1;i<=a;i++)
         {
             f=f*i;
         }
-        logger.info("[RESULT - FACTORIAL] - " + f);
+        logger.info("RESULT - FACTORIAL - " + f);
         return f;
     }
     public double naturalLog(int a)
     {
         double result=0;
-        logger.info("[NATURAL LOG] - " + a);
+        logger.info("NATURAL LOG - " + a);
         try {
             if (a < 0) {
                 result = Double.NaN;
@@ -49,15 +49,15 @@ public class Calculator {
             }
         }
         catch (ArithmeticException error) {
-            System.out.println("Negative number");
+            logger.info("Negative number natural log");
         }
-        logger.info("[RESULT - FACTORIAL] - " + result);
+        logger.info("RESULT - FACTORIAL - " + result);
         return result;
     }
     public double power(int a,int b)
     {
-        logger.info("[POWER] - " + a + " " + b);
-        logger.info("[RESULT - POWER] - " + Math.pow(a,b));
+        logger.info("POWER - " + a + " " + b);
+        logger.info("RESULT - POWER - " + Math.pow(a,b));
         return Math.pow(a,b);
     }
     public static void main(String[] args)

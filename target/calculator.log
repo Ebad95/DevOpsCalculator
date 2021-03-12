@@ -1,4 +1,6 @@
-12/Mar/2021:11:06:29 891 [Calculator.java] [INFO] Calculator [SQUARE ROOT] - 25.0
-12/Mar/2021:11:06:29 898 [Calculator.java] [INFO] Calculator [RESULT - SQUARE ROOT] - 5.0
-12/Mar/2021:11:06:35 616 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5
-12/Mar/2021:11:06:35 616 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120
+2021-03-12 20:44:07,430 [INFO] [Calculator] NATURAL LOG - -4
+2021-03-12 20:44:07,439 [INFO] [Calculator] Negative number natural log
+2021-03-12 20:44:07,441 [INFO] [Calculator] RESULT - FACTORIAL - NaN
+2021-03-12 20:44:15,37 [INFO] [Calculator] NATURAL LOG - -9
+2021-03-12 20:44:15,38 [INFO] [Calculator] Negative number natural log
+2021-03-12 20:44:15,39 [INFO] [Calculator] RESULT - FACTORIAL - NaN
